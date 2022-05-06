@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <auspost>
+                <active>0</active>
+                <title>Deliver with AusPost</title>
+                <name>Aus Post Shipping</name>
+                <sallowspecific>1</sallowspecific>
+                <sort_order>15</sort_order>
+                <model>Elogic\AusPost\Model\Carrier\AusPost</model>
+            </auspost>
+        </carriers>
+    </default>
+</config>
